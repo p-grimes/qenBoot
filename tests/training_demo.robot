@@ -4,6 +4,7 @@ Resource                     ../resources/keywords.robot
 Resource                     ../resources/locators.robot
 
 *** Test Cases ***
+Homepage
     [Documentation]          First Exercise test Cases
     [Tags]                   training
     OpenBrowser              about:blank    chrome
