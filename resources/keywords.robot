@@ -22,6 +22,8 @@ Appstate
        ...                                 Homepage
        Run Keyword If         '${state}'=='sign in'
        ...                              Sign in
+       Run Keyword If         '${state}'=='final'
+       ...                              Final
 
 Homepage
          GoTo                   ${URL}
@@ -37,3 +39,11 @@ Sign in
       TypeSecret             Password                ${PASSWORD}
       ClickText                 Sign in                     Forgot your password?
       VerifyText                Welcome to your account.
+
+Final                        
+    Homepage
+    ${signed_in}=          IsText                     Sign out
+      Run Keyword If       ${signed_in}
+      ...                            ClickText                 Sign out
+    ClickText                 Sign in
+    TypeText                  Email address                    FakeBanana123@gmail.com
