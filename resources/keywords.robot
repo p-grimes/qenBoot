@@ -52,15 +52,15 @@ Final
     TypeText    First name    Paul
     TypeText    Last name    Grimes
     TypeSecret    Password    ${PASSWORD}
-    DropDown    -    10                        anchor=days
-    DropDown    -    October                        anchor=months
-    DropDown    -    1994                        anchor=years
+    DropDown      Date of Birth                        10                        anchor=days
+    DropDown      Date of Birth                        October                        anchor=months
+    DropDown      Date of Birth                        1994                        anchor=years
     ClickCheckbox    Sign up for our newsletter!    on
     ClickCheckbox    Receive special offers from our partners!    on
     TypeText    Company    Copado
     TypeText    Address    110 w 6th st SE   
     TypeText    City    Portland    
-    DropDown    -    Maine    anchor=State
+    DropDown      Date of Birth                        Maine                        anchor=State
     TypeText    Zip/Postal Code    97202
     TypeText    Home phone    5419712898
     TypeText    Mobile phone    5419712898
