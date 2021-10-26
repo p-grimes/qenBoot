@@ -7,3 +7,9 @@ Library                          String
 ${BROWSER}                       chrome
 ${URL}                            http://automationpractice.com/
 *** Keywords ***
+Start Suite
+    OpenBrowser                   about:blank    chrome
+    SetConfig                     SearchMode     draw
+
+End Suite
+    CloseAllBrowsers
