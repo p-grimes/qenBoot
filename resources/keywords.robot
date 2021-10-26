@@ -51,7 +51,7 @@ Final
     ClickText                 1
     TypeText    First name    Paul
     TypeText    Last name    Grimes
-    TypeSecret    Password    SuperSecret
+    TypeSecret    Password    ${PASSWORD}
     DropDown    -    10                        anchor=days
     DropDown    -    October                        anchor=months
     DropDown    -    1994                        anchor=years
