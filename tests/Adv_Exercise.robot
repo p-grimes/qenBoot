@@ -29,3 +29,23 @@ Appstate Test
 
 Appstate Final Test
     Appstate                 final
+
+
+New Lead
+    [Documentation]
+    [Tags]
+    SetConfig                SearchMode       draw  
+    Appstate
+    ...
+    ...
+    ...
+
+
+Delete Row From Lead
+    [Documentation]
+    [Tags]
+    SetConfig                SearchMode       draw  
+    Appstate
+    ...
+    ...
+    ...
